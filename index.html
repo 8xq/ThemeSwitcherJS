@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Theme switcher JS</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+</head>
+<body onload="DarkMode()">
+	<div class="nb">
+		<a id="ThemeStyle" onclick="ChangeMode()">Default</a>
+	</div>
+	<center>
+		<div class="Box">
+			<h1>Hello</h1>
+			<p>
+				This is an example Darkmode / lightmode toggle site using CSS variables and JS to manipulate the base colour schemes defined.
+			</p>
+			<label id="SliderText">Slider example</label>
+			<br>
+			<input type="range" min="0" max="100" value="50" class="slider" id="SliderExample">
+			<button class="BTN">Example BTN</button>
+		</div>
+	</center>
+	<div class="Footer">
+		<p>
+			<a href="https://github.com/HDzzzz"><img src="Data/github.svg" alt="Config"></a>
+			<a href="https://www.youtube.com/channel/UCkDN6rpJxhyzfhmtAPRCKdA"><img src="Data/YT.svg" alt="Config"></a>
+		</p>
+	</div>
+	<script src="Theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+:root {
+    --BG: rgb(22, 22, 22);
+    --SC:  rgb(35, 35, 35);
+    --EC: rgb(40, 56, 204);
+    --TC: rgb(255,255,255);
+}
+body {
+    background-color: var(--BG);
+    padding: 0;
+    margin: 0;
+}
+.Box {
+	overflow: hidden;
+	width: 30%;
+	height: 45%;
+	background: var(--SC);
+    border-radius: 15px;
+    min-width: 350px;
+    min-height: 320px;
+    margin: 20px;
+}
+.Box h1 {
+    color: var(--TC);
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+label {
+    color: var(--TC);
+}
+.Box p {
+    color: var(--TC);
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+}
+.nb {
+	background-color: var(--SC);
+	overflow: hidden;
+	width: 100%;
+}
+.nb a {
+	float: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.nb a:hover {
+	background-color: var(--EC);
+	color: white;
+    text-decoration: none;
+    cursor: default;
+    user-select: none;
+}
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--SC);
+    text-align: center;
+    margin-top: 0px;
+    padding: 1px;
+    margin-top: 5px;
+}
+.BTN {
+	background-color:var(--EC);
+	color: white;
+	width: 85%;
+	height: 35px;
+	border: 25px;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	outline: none;
+	transition: all 0.5s;
+	transition: 0.5s;
+    margin: 5px;
+}
+.BTN:hover {
+	border-radius: 15px;
+	text-decoration: none;
+	text-align: center;  
+}
+.slider {
+    height:5px;
+    appearance: none;
+    width:50%;
+    background-color: var(--BG);
+    border-radius: 30px;
+    margin: 10px;
+    outline: none;
+    margin-top: 15px;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background-color: var(--EC);
+    cursor: pointer;
+}
