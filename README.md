@@ -23,7 +23,7 @@ TX => 'Text' colour
 
 ## Colour schemes
 ```
-If you do change the colours used I recommend using a "Colour scheme" to generate pairs of colours that match
+If you do change the colours used I recommend using a "Colour scheme" to generate pairs of colours
 It is recommended to not use too many different colours also :) 
 ```
 [Colour scheme pairs](https://coolors.co/ "Example")
